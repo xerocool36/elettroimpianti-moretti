@@ -785,6 +785,17 @@ body.nav-open { overflow: hidden; }
 .form-note.is-error { color: #FFB3A2; }
 .form-note.is-ok { color: #9FE3B5; }
 
+/* preview-only disclaimer under the quote form; remove at go-live */
+.form-preview-note {
+  margin-top: var(--s-5);
+  padding: var(--s-3) var(--s-4);
+  border-left: 3px solid var(--amber);
+  background: var(--ink-2);
+  font-size: var(--t--1);
+  color: var(--on-ink-2);
+  line-height: 1.5;
+}
+
 .prev-side {
   min-width: 0;
   background: var(--ink-2);
